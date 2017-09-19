@@ -7,19 +7,8 @@
 }
 
 main {
-	background-image:url(../%E5%9B%B3/michael-podger-252489.jpg);
+	background-image:url(images/michael-podger-252489.jpg);
 	background-size: cover;
 	width: 1183px;
 	height: 749px;
-}
-
-div {
-	
-	text-align:center;
-	border:0px solid #a1a1a1;
-	padding:10px 40px;
-	background:rgba(221,221,221,0.5);
-	width:600px;
-	border-radius:10px;
-	
 }
