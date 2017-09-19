@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>夏休み7</title>
+	
+	<link rel="stylesheet" href="test1.css">
+</head>
+<body>
+	<main>
+		<div class="bgw">
+			<h1>○○さん　お帰りなさい</h1>
+		</div>
+		<table class="left bgw" id="stts">
+			<tr>
+				<th colspan="2">状態</th>
+			</tr>
+			<tr>
+				<td>湿度</td>
+				<td>時間</td>
+			</tr>	
+			<tr>
+				<td>23％</td>
+				<td>
+				<script>
+					var jikan= new Date();
+					var day = jikan.getDate();
+					var hour = jikan.getHours();
+					var minute = jikan.getMinutes();
+					var second = jikan.getSeconds();
+					
+					document.write(day+"日"+hour+":"+minute+":"+second+"");	
+					
+				</script>
+				
+				</td>
+			</tr>
+			<tr>
+				<td>気温</td>
+				<td>給光</td>
+			</tr>
+			<tr>
+				<td>32℃</td>
+				<td>30</td>
+			</tr>
+		</table>
+
+		<div class="left" id="btn">
+			<h2 class="bgw">給水</h2>
+			<h2 class="bgw">観察日記</h2>
+		</div>
+		
+	</main>
+
+</body>
+</html>
