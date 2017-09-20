@@ -14,7 +14,9 @@
 main {
 	background-image: url(images/dixit-motiwala-38538.jpg);
 	width: 1183px;
+	/*width: auto;*/
 	height: 749px;
+	background-size: cover;
 }
 
 main div:nth-child(1) {

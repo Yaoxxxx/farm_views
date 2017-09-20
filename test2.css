@@ -12,3 +12,15 @@ main {
 	width: 1183px;
 	height: 749px;
 }
+
+
+div {
+	
+	text-align:center;
+	border:0px solid #a1a1a1;
+	padding:10px 40px;
+	background:rgba(221,221,221,0.5);
+	width:600px;
+	border-radius:10px;
+	
+}
